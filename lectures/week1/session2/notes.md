@@ -4,3 +4,5 @@
 - https://specificity.keegan.st/ 
 - https://validator.w3.org/ 
 - https://css-tricks.com/
+# Pear Deck Link for tonight:
+- https://app.peardeck.com/student/tiqmrouob
