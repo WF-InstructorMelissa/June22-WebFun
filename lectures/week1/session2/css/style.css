@@ -20,6 +20,7 @@ main {
     display: inline-block;
     text-align: center;
     background-color: antiquewhite;
+    margin: 10px;
 }
 img {
     max-width: 300px;
