@@ -1,0 +1,31 @@
+/* * {
+    border: 1px dotted red;
+    margin: auto 0;
+    padding: auto 0;
+} */
+body {
+    background-color: #ad9575;
+    display: inline;
+}
+h1 {
+    text-align: center;
+    /* color: #f15771; */
+}
+main {
+    max-width: 800px;
+    padding: 10px;
+    text-align: center;
+}
+.pets {
+    display: inline-block;
+    text-align: center;
+    background-color: antiquewhite;
+}
+img {
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    border: 10px double rgb(173, 114, 173);
+    margin: 10px;
+}
