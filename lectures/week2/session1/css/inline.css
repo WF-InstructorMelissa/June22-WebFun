@@ -1,0 +1,26 @@
+header {
+    width: 95;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    margin: auto 0;
+    text-align: center;
+}
+a {
+    padding: 1em;
+}
+div {
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+}
+.small {
+    width: 200px;
+    padding: 2em;
+}
+.large {
+    width: 500px;
+    margin: 0 auto;
+}
