@@ -1,0 +1,43 @@
+/* * {
+    border: 1px dotted red;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    margin-bottom: 1em;
+    border: 2px solid black;
+    padding: .5em;
+}
+a {
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    margin: .5em;
+}
+.small {
+    width: 200px;
+}
+.large {
+    width: 500px;
+}
