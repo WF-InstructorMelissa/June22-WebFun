@@ -32,7 +32,6 @@ h1 {
     font-size:35px;
 }
 
-
 .navigation_container {
     border: 1px solid black;
     display: flex;
@@ -65,8 +64,6 @@ ul {
     list-style-type: none;
 }
 
-
-
 .log_out_container {
     border: 1px solid darkmagenta;
     display: flex;    
@@ -90,17 +87,11 @@ ul {
     font-size: 16px;
 }
 
-
-
-
-
-
-
 main {
     border: 1px solid green;
     display: flex;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     justify-content: center;
 }
 
@@ -110,7 +101,7 @@ main {
     flex-direction: row;
     width: 80%;
     height: 100%;
-    
+    justify-content: center;    
 }
 
 .left_column {
@@ -122,25 +113,30 @@ main {
 }
 
 .left_container {
-    border: 1px solid blue;
+    border: 1px solid green;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 500px
-
-
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
-
-
-
-
-
-.right_container {
+.right_column {
     border: 1px solid blue;
     display: flex;
     flex-direction: column;
     width: 40%;
     height: 100%;
+}
+
+.right_container {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
