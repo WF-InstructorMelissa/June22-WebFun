@@ -108,12 +108,12 @@ main {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     height: 100%;
     
 }
 
-.left_container {
+.left_column {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ main {
     height: 100%;
 }
 
-.profile_container {
+.left_container {
     border: 1px solid blue;
     display: flex;
     flex-direction: row;
