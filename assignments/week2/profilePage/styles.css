@@ -224,17 +224,6 @@ main {
     padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .right_column {
     display: flex;
     flex-direction: column;
@@ -251,7 +240,6 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    height: ;
 }
 
 
