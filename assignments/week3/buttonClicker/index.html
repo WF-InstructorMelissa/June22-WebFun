@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
     <title>Dojonary</title>
 </header>
 <body>
@@ -18,7 +19,11 @@
 
                 </form>
             </div>
-            <div class="nav_login">
+            <div class="nav_login_container">
+                <form>
+                    <input type="submit" id=nav_login value="Login">
+                    <input type="submit" id=nav_register value="Register">
+                </form>
             </div>
         </div>
     </nav>
@@ -36,7 +41,20 @@
 
         <div class="right_column">
                 <div class="right_container">
-    
+                    <div id="input_vocab">
+                        <form>
+                            <input type="text" name="vocab_word" id="vocab_word">
+                            <input type="text" name="vocab_description" id="vocab_description">
+                        </form>
+                    </div>
+
+
+
+                    <div>
+                        <form>
+                            <input type="submit" value="Add Definition">
+                        </form>
+                    </div>
                 </div>
                 <div class="right_container">
     
