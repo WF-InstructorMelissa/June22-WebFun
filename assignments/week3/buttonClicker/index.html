@@ -25,49 +25,41 @@
             </div>
         </div>
     </nav>
-
     <main>
         <div class="left_column">
             <div class="left_container">
-
-            </div>
-            <div class="left_container">
-
-            </div>
-        </div>
-
-
-        <div class="right_column">
-                <div class="right_container">
-                    <div id="input_vocab">
-                        <form>
-                            <input type="text" name="vocab_word" id="vocab_word">
-                            <input type="text" name="vocab_description" id="vocab_description">
-                        </form>
+                <div class="def_word">
+                    <div id="def_container">
+                        <h2 id="word">ninja</h2>
                     </div>
-
-
-
-                    <div>
+                    <div id="def_container">
+                        <p id="adjective">noun</p>
+                    </div>
+                    <div id="def_container">
+                        <p id="plural">Plural: ninjas</p>
+                    </div>
+                    <div id="op">
                         <form>
-                            <input type="submit" value="Add Definition">
+                            <button type="button" id="like" onclick="alert(this)">Likes</button>
                         </form>
                     </div>
                 </div>
+                <div class="definition_container">
+                    <p id="word_definition">A practitioner skilled in the Japanese art of ninjutsu</p>
+                </div>
+            </div>
+        </div>
+        <div class="right_column">
                 <div class="right_container">
-    
+                    <div class="input_vocab">
+                    </div>
+                    <div class="submit_container">
+                        <form>
+                            <input type="submit" id="submit" value="Add Definition" onclick="hide(this)">
+                        </form>
+                    </div>
                 </div>
         </div>
     </main>
-
-
-
 </body>
-
-
-
-
-
-
-
 </html>
