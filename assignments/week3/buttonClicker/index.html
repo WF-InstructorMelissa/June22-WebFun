@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
     <title>Dojonary</title>
 </header>
 <body>
@@ -15,22 +16,58 @@
             <div class="nav_bar">
                 <form class="nav_form">
                     <input type="search" id="nav_search" name="q" placeholder="Search">
-                    <button>Search</button>
+
                 </form>
             </div>
-            <div class="nav_login">
-                <form class="nav_form">
-                    <input type="search" id="nav_search" name="q" placeholder="Search">
-                    <button>Search</button>
+            <div class="nav_login_container">
+                <form>
+                    <input type="submit" id=nav_login value="Login">
+                    <input type="submit" id=nav_register value="Register">
                 </form>
             </div>
         </div>
     </nav>
 
+    <main>
+        <div class="left_column">
+            <div class="left_container">
+
+            </div>
+            <div class="left_container">
+
+            </div>
+        </div>
+
+
+        <div class="right_column">
+                <div class="right_container">
+                    <div id="input_vocab">
+                        <form>
+                            <input type="text" name="vocab_word" id="vocab_word">
+                            <input type="text" name="vocab_description" id="vocab_description">
+                        </form>
+                    </div>
+
+
+
+                    <div>
+                        <form>
+                            <input type="submit" value="Add Definition">
+                        </form>
+                    </div>
+                </div>
+                <div class="right_container">
+    
+                </div>
+        </div>
+    </main>
 
 
 
 </body>
+
+
+
 
 
 
