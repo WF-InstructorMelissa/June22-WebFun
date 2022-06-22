@@ -59,8 +59,19 @@ h1 {
     display: flex; 
     width: 200px;
     height: 100px;
+    align-items: center;
 
 }
+
+#login {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
 
 main {
     display: flex;

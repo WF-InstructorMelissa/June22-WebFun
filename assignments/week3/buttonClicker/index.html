@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
     <title>Dojonary</title>
 </header>
 <body>
@@ -16,14 +15,13 @@
             <div class="nav_bar">
                 <form class="nav_form">
                     <input type="search" id="nav_search" name="q" placeholder="Search">
-
                 </form>
             </div>
             <div class="nav_login_container">
                 <form>
-                    <input type="submit" id=nav_login value="Login">
-                    <input type="submit" id=nav_register value="Register">
+                    <button type="button" id="login" onclick="logIn(this)">Login</button>
                 </form>
+                <script src="script.js"></script>
             </div>
         </div>
     </nav>
