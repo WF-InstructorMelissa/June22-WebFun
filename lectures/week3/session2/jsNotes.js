@@ -17,6 +17,8 @@ for(i = 0; i < 5; i++) {
 
 // For loop with conditionals flow
 var arr = ["Coding", "Web Fundamentals", "Dojo", "Coding", "Rocks", "Dojo", "coding", "dojo", "JS can be fun"]
+//             0            1               2       3          4        5       6        7          8
+console.log("the length of the array: ", arr.length) 
 for(i = 0; i < arr.length; i++) {
     if (arr[i] == "Coding") {
         arr[i] = "Coding Dojo Rocks!"
@@ -51,3 +53,43 @@ console.log(arr)
 //   "What's Up doc?",
 //   "What's Up doc?"
 // ]
+
+
+var arr = ["Coding", "Web Fundamentals", 1, "Dojo", "Coding", "Rocks", "Dojo", "coding", "1", "dojo", "JS can be fun"]
+
+console.log("the length of the array: ", arr.length) 
+for(var i = 0; i < arr.length; i++) {
+    if (arr[i] == "Coding") {
+        arr[i] = "Coding Dojo Rocks!"
+    } else if (arr[i] == "Dojo") {
+        arr[i] = "Welcome to Coding Dojo!"
+    } else if (arr[i] === 1 ){
+      arr[i] = "they are exactly alike"
+    } else if (arr[i] == 1) {
+      arr[i] = "printing one"
+    }else {
+        arr[i] = "What's Up doc?"
+    }
+}
+console.log(arr)
+
+// the length of the array:  11
+// [ 'Coding Dojo Rocks!',
+//   'What\'s Up doc?',
+//   'they are exactly alike',
+//   'Welcome to Coding Dojo!',
+//   'Coding Dojo Rocks!',
+//   'What\'s Up doc?',
+//   'Welcome to Coding Dojo!',
+//   'What\'s Up doc?',
+//   'printing one',
+//   'What\'s Up doc?',
+//   'What\'s Up doc?' ]
+
+
+
+
+
+
+
+// https://pythontutor.com/render.html#code=var%20arr%20%3D%20%5B%22Coding%22,%20%22Web%20Fundamentals%22,%201,%20%22Dojo%22,%20%22Coding%22,%20%22Rocks%22,%20%22Dojo%22,%20%22coding%22,%20%221%22,%20%22dojo%22,%20%22JS%20can%20be%20fun%22%5D%0A%0Aconsole.log%28%22the%20length%20of%20the%20array%3A%20%22,%20arr.length%29%20%0Afor%28var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B%29%20%7B%0A%20%20%20%20if%20%28arr%5Bi%5D%20%3D%3D%20%22Coding%22%29%20%7B%0A%20%20%20%20%20%20%20%20arr%5Bi%5D%20%3D%20%22Coding%20Dojo%20Rocks!%22%0A%20%20%20%20%7D%20else%20if%20%28arr%5Bi%5D%20%3D%3D%20%22Dojo%22%29%20%7B%0A%20%20%20%20%20%20%20%20arr%5Bi%5D%20%3D%20%22Welcome%20to%20Coding%20Dojo!%22%0A%20%20%20%20%7D%20else%20if%20%28arr%5Bi%5D%20%3D%3D%3D%201%20%29%7B%0A%20%20%20%20%20%20arr%5Bi%5D%20%3D%20%22they%20are%20exactly%20alike%22%0A%20%20%20%20%7D%20else%20if%20%28arr%5Bi%5D%20%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20arr%5Bi%5D%20%3D%20%22printing%20one%22%0A%20%20%20%20%7Delse%20%7B%0A%20%20%20%20%20%20%20%20arr%5Bi%5D%20%3D%20%22What's%20Up%20doc%3F%22%0A%20%20%20%20%7D%0A%7D%0Aconsole.log%28arr%29&cumulative=false&curInstr=71&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false
