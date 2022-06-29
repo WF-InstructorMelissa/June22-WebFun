@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>"Registration Form"</title>
+    </head>
+    
+<body>
+    <div>
+      <div>
+      <h1><strong>Registration Form</strong></h1>  
+      </div>
+        <div>
+            <p>First Name: * <input type="text" name="first_name"></p>
+            <p>Last Name: * <input type="text" name="last_name"></p>
+            <p>Email Address: * <input type="text" name="email_address"></p>
+            <p>Password: * <input type="password" name="first_name"></p>
+            <p>Confirm Password: * <input type="password" name="first_name"></p>
+            <p>Birthday: <input type="dob" name="birthday" placeholder="mm/dd/yy"></p>
+        </div>
+        <div>
+        <p>Gender Identity:</p>
+            <input id="male" type="radio" name="gender_identity">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender_identity">
+            <label for="female">Female</label>
+            <input id="non_binary" type="radio" name="gender_identity">
+            <label for="non_binary">Non-binary</label>              
+            <input id="no_answer" type="radio" name="gender_identity">
+            <label for="no_answer">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myself:</p>
+            <textarea name="self_description" cols="35" rows="05"></textarea>
+        </div>
+        <div>
+        <p>Favorite Language: 
+            <select name="favorite_language">
+                <option>JavaScript</option>
+                <option>CSS</option>
+                <option>HTML</option>
+                <option>WSB Chad</option>
+                <option>WSB Ape</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="email_offers" id="email_offers">
+            <label for="email_offers">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <br>
+        <div>
+        <input type="submit" value="Create Account">
+        </div>
+        <div>
+        <p>* Indicates a required field</p>
+        </div>
+    </div>
+</html>

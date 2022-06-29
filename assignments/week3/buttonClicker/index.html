@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lan="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Dojonary</title>
+</header>
+<body>
+    <nav>
+        <div class="nav_container">
+            <div class="nav_logo">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="nav_bar">
+                <form class="nav_form">
+                    <input type="search" id="nav_search" name="q" placeholder="Search">
+                </form>
+            </div>
+            <div class="nav_login_container">
+                <form>
+                    <button type="button" id="login" onclick="logIn(this)">Login</button>
+                </form>
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="left_column">
+            <div class="left_container">
+                <div class="def_word">
+                    <div id="def_container">
+                        <h2 id="word">ninja</h2>
+                    </div>
+                    <div id="def_container">
+                        <p id="adjective">noun</p>
+                    </div>
+                    <div id="def_container">
+                        <p id="plural">Plural: ninjas</p>
+                    </div>
+                    <div id="op">
+                        <form>
+                            <button type="button" id="like" onclick="alert(this)">Likes</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="definition_container">
+                    <p id="word_definition">A practitioner skilled in the Japanese art of ninjutsu</p>
+                </div>
+            </div>
+        </div>
+        <div class="right_column">
+                <div class="right_container">
+                    <div class="input_vocab">
+                    </div>
+                    <div class="submit_container">
+                        <form>
+                            <input type="submit" id="submit" value="Add Definition" onclick="hide(this)">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
+</html>

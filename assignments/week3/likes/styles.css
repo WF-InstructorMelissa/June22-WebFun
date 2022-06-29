@@ -1,0 +1,66 @@
+.container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 200px;
+    align-items: center;
+    margin: 30px;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+}
+
+.botContainer {
+    display: flex;
+    max-width: 400px;
+    height: 100px;
+    padding: 10px;
+}
+
+.t_a {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.t_b {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    background-color: bisque;
+    font-size: 20px;
+}
+
+
+.max {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100%;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    margin-right: 15px;
+}
