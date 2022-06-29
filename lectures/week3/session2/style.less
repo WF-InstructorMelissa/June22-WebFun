@@ -1,0 +1,24 @@
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@blue:  #44448b;
+@font: #ffffff;
+
+body {
+    .flexcolumn();
+
+    button {
+        background-color: @blue;
+        color: @font;
+    }
+}
