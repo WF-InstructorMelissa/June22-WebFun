@@ -30,12 +30,12 @@ async function getTunes() {
 }
 getTunes()
 
-// var nasa = keys.NASAKEY
+var nasa = keys.NASAKEY
 // Line  = creating a var calling nasa setting it equal to keys.NASAKEY
 // keys = the file name
 // NASAKEY = the function name
 
-var nasa = NASAKEY
+// var nasa = NASAKEY
 $(document).ready(function() {
     nasaurl = `https://api.nasa.gov/planetary/apod?api_key=${nasa}`
     $.get(nasaurl, function(res) {

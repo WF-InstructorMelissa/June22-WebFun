@@ -53,6 +53,7 @@ body {
   align-items: center;
   background-color: #708090;
   font-family: 'Dancing Script', cursive;
+  padding-bottom: 3em;
 }
 body header {
   display: flex;
@@ -68,31 +69,53 @@ body main {
   align-items: center;
   width: 95%;
 }
-body main .row {
+body main .heading {
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  padding: 2em;
+  width: 75%;
+  text-align: center;
+  border: 2px solid #9595da;
+  box-shadow: 1px 2px #000000, 0 0 1em #00ffb3, 0 0 0.2em #9595da;
+}
+body main .section {
+  display: none;
+  width: 95%;
+}
+body main .section .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 95%;
 }
-body main .row .column {
+body main .section .row .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 45%;
 }
-body main .row .column #showWeek1,
-body main .row .column #showWeek2,
-body main .row .column #showWeek3,
-body main .row .column #showWeek4 {
+body main .section .row .column #showWeek1,
+body main .section .row .column #showWeek2,
+body main .section .row .column #showWeek3,
+body main .section .row .column #showWeek4,
+body main .section .row .column #showMelissa,
+body main .section .row .column #showDojoHall,
+body main .section .row .column #showShortCuts,
+body main .section .row .column #showLinks,
+body main .section .row .column #showVideo {
   background-color: aliceblue;
   background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
   padding: 1em 2em;
 }
-body main .row .column #hideWeek1,
-body main .row .column #hideWeek2,
-body main .row .column #hideWeek3,
-body main .row .column #hideWeek4 {
+body main .section .row .column #hideWeek1,
+body main .section .row .column #hideWeek2,
+body main .section .row .column #hideWeek3,
+body main .section .row .column #hideWeek4,
+body main .section .row .column #hideMelissa,
+body main .section .row .column #hideDojoHall,
+body main .section .row .column #hideShortCuts,
+body main .section .row .column #hideLinks,
+body main .section .row .column #hideVideo {
   display: none;
 }
