@@ -82,7 +82,7 @@ $(document).ready(function() {
         //     'background-color': 'pink'
         // })
     })
-    $('#showMelisa').click(function() {
+    $('#showMelissa').click(function() {
         $('#hideMelissa').animate( {
             width: 'toggle'
         })
